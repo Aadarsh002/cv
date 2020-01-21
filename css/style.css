@@ -1,0 +1,56 @@
+body
+{
+  background-color: #eaffd0;
+}
+h1,h3
+{
+  color: #f67280;
+}
+.photo
+{
+  height:200px;
+  width:200px;
+}
+.heading
+{
+  color: #11999e;
+}
+.photo:hover
+{
+  height: 210px;
+  width: 210px;
+}
+.contact
+{
+  background-color: #30e3ca;
+  color:gold;
+  border: 2px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.contact:hover
+{
+  background-color: #4d80e4;
+  color: black;
+  border-radius: 10px;
+}
+hr
+{
+  border-style: none;
+  border-top-style: dotted;
+  color: #357376;
+  border-width: 5px;
+  width: 30%;
+}
+.cbody
+{
+  background-color: #bbded6;
+}
+hr:hover
+{
+  border-style: none;
+  border-top-style:dashed;
+  color: #393e46;
+  border-width: 2px;
+  width: 100%;
+}

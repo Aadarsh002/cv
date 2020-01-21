@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <body class="cbody">
+           <center>
+               <form action="https://mail.google.com/mail/u/0/#inbox" method="POST">
+               <h3 class="heading">Personal Details</h3>
+               <p>Name:<input type="text" name="full name" placeholder="Full Name"></p>
+               <p>Password:<input type="password" name="password" placeholder="Password"></p>
+               <p>E-mail id:<input type="email" name="email address" placeholder="Email"></p>
+               <label>Gender:</label><input type="radio" name="gender" value="Male"><label>Male</label>
+               <input type="radio" name="gender" value="Female"><label>Female</label>
+               <br><br />
+               <label>Contact#:</label><input type="text" name="contact" placeholder="contact number">
+               <br>
+               <h3 class="heading">Educational Qualification</h3>
+               <label>Degree:</label>
+                <select name="Degree">
+                    <option value="B.E">B.E</option>
+                    <option value="M.E">M.E</option>
+                    <option value="B.Tech">B.Tech</option>
+                </select>
+                <br><br>
+               <label>Engineering:</label>
+                <select name="Engineering">
+                   <option value="--Select Group--" selected>--Select Group--</option>
+                   <option value="C.S.E">C.S.E</option>
+                   <option value="I.S">I.S</option>
+                </select>
+                <br><br>
+                <label>Hobbies:</label><input type="checkbox" name="game" value="hobbies"><label>Playing chess</label>
+                <input type="checkbox" name="game" value="hobby"><label>Reading Books</label>
+                <br><br>
+                <h3 class="heading">Message</h3>
+                <textarea cols="40" rows="6">
+                </textarea>
+                <br><br>
+                <label>Attach Resume:</label> <input type="file" value="Choose File" name="document">
+                <br><br>
+                <input type="submit" value="SUBMIT" name="submit">
+            </form>
+           </center>
+        </body>
+    </head>
+</html>
